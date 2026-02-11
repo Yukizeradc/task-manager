@@ -20,17 +20,28 @@ Um gerenciador de tarefas simples desenvolvido em PHP com MySQL. Este projeto pe
 ## 📂 Estrutura do Projeto
 
 task-manager/
-├─ assets/ # CSS, imagens e JS do front-end
-├─ config/
-│ └─ conexao.php # Arquivo de conexão com o banco
-├─ public/ # Arquivos acessíveis pelo navegador
-│ ├─ index.php # Página principal com tabela de tarefas
-│ ├─ criar.php # Formulário para criar tarefas
-│ ├─ editar.php # Formulário para editar tarefas
-│ ├─ excluir.php # Lógica para excluir tarefas
-│ └─ atualizar.php # Lógica para atualizar tarefas
-├─ .gitignore # Arquivos a serem ignorados pelo Git
-└─ README.md # Documentação do projeto
+assets/ # CSS, imagens e JS do front-end
+
+config/
+
+conexao.php # Arquivo de conexão com o banco
+
+public/ # Arquivos acessíveis pelo navegador
+
+index.php # Página principal com tabela de tarefas
+
+criar.php # Formulário para criar tarefas
+
+editar.php # Formulário para editar tarefas
+
+excluir.php # Lógica para excluir tarefas
+
+atualizar.php # Lógica para atualizar tarefas
+
+gitignore # Arquivos a serem ignorados pelo Git
+
+README.md # Documentação do projeto
+ 
 ## 🚀 Instalação e Uso
 
 1. Clone o repositório:
